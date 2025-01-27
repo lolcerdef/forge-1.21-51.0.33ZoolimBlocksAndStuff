@@ -1,7 +1,6 @@
 package com.lolcerdef.zooliminology;
 
 import com.lolcerdef.zooliminology.block.ModBlocks;
-import com.lolcerdef.zooliminology.item.ModCreativeTabs;
 import com.lolcerdef.zooliminology.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -60,6 +59,9 @@ public class ZooliminologyMod
         }
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LONGLEGS_LEG_SAMPLE);
+        }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.LONGLEGS_HEAD_SAMPLE);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TILES);

@@ -13,9 +13,11 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> CLIPPING_PEN = ITEMS.register("clipping_pen",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> LONGLEGS_LEG_SAMPLE = ITEMS.register("longlegs_leg_sample",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(12)));
+    public static final RegistryObject<Item> LONGLEGS_HEAD_SAMPLE = ITEMS.register("longlegs_head_sample",
+            () -> new Item(new Item.Properties().stacksTo(2)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
