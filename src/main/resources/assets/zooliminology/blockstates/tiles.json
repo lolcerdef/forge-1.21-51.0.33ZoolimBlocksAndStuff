@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "zooliminology:block/tiles/tiles_block1",
+        "weight": 5
+      },
+      {
+        "model": "zooliminology:block/tiles/tiles_block2",
+        "weight": 2
+      },
+      {
+        "model": "zooliminology:block/tiles/tiles_block3",
+        "weight": 4
+      }
+    ]
+  }
+}
