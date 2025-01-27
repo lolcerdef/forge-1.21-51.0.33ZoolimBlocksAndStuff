@@ -63,6 +63,9 @@ public class ZooliminologyMod
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LONGLEGS_HEAD_SAMPLE);
         }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.CLIPPING_PEN_INTERNALS);
+        }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TILES);
         }

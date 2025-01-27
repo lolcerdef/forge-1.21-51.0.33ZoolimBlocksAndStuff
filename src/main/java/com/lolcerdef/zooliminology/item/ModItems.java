@@ -18,6 +18,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(12)));
     public static final RegistryObject<Item> LONGLEGS_HEAD_SAMPLE = ITEMS.register("longlegs_head_sample",
             () -> new Item(new Item.Properties().stacksTo(2)));
+    public static final RegistryObject<Item> CLIPPING_PEN_INTERNALS = ITEMS.register("clipping_pen_internals",
+            () -> new Item(new Item.Properties().stacksTo(2)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
