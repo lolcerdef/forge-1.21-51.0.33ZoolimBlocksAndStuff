@@ -1,5 +1,7 @@
 {
   "item.zooliminology.clipping_pen": "Clipping Pen",
   "item.zooliminology.longlegs_leg_sample": "Longlegs Leg Sample",
-  "block.zooliminology.tiles": "Tiles"
+  "item.zooliminology.longlegs_head_sample": "Longlegs Head Sample",
+  "block.zooliminology.tiles": "Tiles",
+  "block.zooliminology.brutalia_concrete": "Brutalia Concrete"
 }

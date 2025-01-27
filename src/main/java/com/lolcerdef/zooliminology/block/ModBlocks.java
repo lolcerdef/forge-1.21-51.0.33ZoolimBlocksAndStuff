@@ -22,11 +22,11 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
 
+    public static final RegistryObject<Block> BRUTALIA_CONCRETE = registryBlock("brutalia_concrete",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
 
-    //public static final RegistryObject<Block> EXAMPLE = registryBlock("example",
-    //        () -> new Block(BlockBehaviour.Properties.of()
-    //                .strength(4f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
