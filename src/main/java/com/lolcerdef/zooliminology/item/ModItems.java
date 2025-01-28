@@ -21,6 +21,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(2)));
     public static final RegistryObject<Item> CLIPPING_PEN_INTERNALS = ITEMS.register("clipping_pen_internals",
             () -> new Item(new Item.Properties().stacksTo(2)));
+    public static final RegistryObject<Item> GOLBO_SAMPLE = ITEMS.register("golbo_sample",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.GOLBO_SAMPLE).stacksTo(32)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
