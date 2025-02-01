@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/stairs",
+  "parent": "minecraft:block/outer_stairs",
   "textures": {
     "bottom": "zooliminology:block/tiles1",
     "side": "zooliminology:block/tiles1",

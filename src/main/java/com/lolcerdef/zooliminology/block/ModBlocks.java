@@ -35,10 +35,10 @@ public class ModBlocks {
                     BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<SlabBlock> TILES_SLAB = registryBlock("tiles_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+            () -> new SlabBlock(BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
     public static final RegistryObject<StairBlock> TILES_STAIRS = registryBlock("tiles_stairs",
             () -> new StairBlock(ModBlocks.TILES.get().defaultBlockState(),
-                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops()));
+                    BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

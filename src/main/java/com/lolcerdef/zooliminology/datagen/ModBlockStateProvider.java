@@ -22,8 +22,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.BRUTALIA_CONCRETE);
         stairsBlock(ModBlocks.BRUTALIA_CONCRETE_STAIRS.get(), blockTexture(ModBlocks.BRUTALIA_CONCRETE.get()));
+        stairsBlock(ModBlocks.TILES_STAIRS.get(), blockTexture(ModBlocks.BRUTALIA_CONCRETE.get()));
 
-        blockItem(ModBlocks.BRUTALIA_CONCRETE_STAIRS.get());
+        slabBlock(ModBlocks.BRUTALIA_CONCRETE_SLAB.get(), blockTexture(ModBlocks.BRUTALIA_CONCRETE.get()), blockTexture(ModBlocks.BRUTALIA_CONCRETE.get()));
+        slabBlock(ModBlocks.TILES_SLAB.get(), blockTexture(ModBlocks.BRUTALIA_CONCRETE.get()), blockTexture(ModBlocks.BRUTALIA_CONCRETE.get()));
+
+        blockItem(ModBlocks.BRUTALIA_CONCRETE_STAIRS);
+        blockItem(ModBlocks.TILES_STAIRS);
+        blockItem(ModBlocks.BRUTALIA_CONCRETE_SLAB);
+        blockItem(ModBlocks.TILES_SLAB);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

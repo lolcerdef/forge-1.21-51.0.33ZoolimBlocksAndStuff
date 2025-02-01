@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "zooliminology:block/tiles2",
+    "side": "zooliminology:block/tiles3",
+    "top": "zooliminology:block/tiles1"
+  }
+}

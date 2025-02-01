@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zooliminology:block/tiles_slab/tiles_slab"
+    },
+    "type=double": {
+      "model": "zooliminology:block/tiles/tiles_block"
+    },
+    "type=top": {
+      "model": "zooliminology:block/tiles_slab/tiles_slab_top"
+    }
+  }
+}

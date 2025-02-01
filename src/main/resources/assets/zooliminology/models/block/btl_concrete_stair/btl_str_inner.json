@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "zooliminology:block/brutalia_concrete",
+    "side": "zooliminology:block/brutalia_concrete",
+    "top": "zooliminology:block/brutalia_concrete"
+  }
+
+}

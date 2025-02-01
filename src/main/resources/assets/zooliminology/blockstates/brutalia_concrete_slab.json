@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "zooliminology:block/btl_concrete_slab/btl_concrete_slab"
+    },
+    "type=double": {
+      "model": "zooliminology:block/brutalia_concrete"
+    },
+    "type=top": {
+      "model": "zooliminology:block/btl_concrete_slab/btl_concrete_slab_top"
+    }
+  }
+}
