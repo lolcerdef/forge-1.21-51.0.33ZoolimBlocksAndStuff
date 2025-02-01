@@ -2,6 +2,10 @@
   "replace": false,
   "values": [
     "zooliminology:brutalia_concrete",
-    "zooliminology:tiles"
+    "zooliminology:brutalia_concrete_stairs",
+    "zooliminology:brutalia_concrete_slab",
+    "zooliminology:tiles",
+    "zooliminology:tiles_stairs",
+    "zooliminology:tiles_slab"
   ]
 }

@@ -71,9 +71,13 @@ public class ZooliminologyMod
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.TILES);
+            event.accept(ModBlocks.TILES_STAIRS);
+            event.accept(ModBlocks.TILES_SLAB);
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BRUTALIA_CONCRETE);
+            event.accept(ModBlocks.BRUTALIA_CONCRETE_STAIRS);
+            event.accept(ModBlocks.BRUTALIA_CONCRETE_SLAB);
         }
 
     }
