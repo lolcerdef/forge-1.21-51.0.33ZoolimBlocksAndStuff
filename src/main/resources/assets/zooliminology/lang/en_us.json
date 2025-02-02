@@ -6,8 +6,9 @@
   "item.zooliminology.golbo_sample": "Golbo Sample",
   "block.zooliminology.tiles": "Tiles",
   "block.zooliminology.tiles_slab": "Slab Tiles",
-  "block.zooliminology.tiles_stairs": "Stair Slabs",
+  "block.zooliminology.tiles_stairs": "Stair Tiles",
   "block.zooliminology.brutalia_concrete": "Brutalia Concrete",
   "block.zooliminology.brutalia_concrete_stairs": "Brutalian Concrete Stairs",
-  "block.zooliminology.brutalia_concrete_slab": "Brutalian Concrete Slab"
+  "block.zooliminology.brutalia_concrete_slab": "Brutalian Concrete Slab",
+  "block.zooliminology.white_hole": "White Hole"
 }

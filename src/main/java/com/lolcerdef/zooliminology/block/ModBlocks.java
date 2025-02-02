@@ -15,6 +15,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
+import java.util.function.ToIntFunction;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
@@ -39,6 +40,11 @@ public class ModBlocks {
     public static final RegistryObject<StairBlock> TILES_STAIRS = registryBlock("tiles_stairs",
             () -> new StairBlock(ModBlocks.TILES.get().defaultBlockState(),
                     BlockBehaviour.Properties.of().strength(2f).requiresCorrectToolForDrops().sound(SoundType.GLASS)));
+
+    public static final RegistryObject<Block> WHITE_HOLE = registryBlock("white_hole",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .explosionResistance(500000f).destroyTime(-1f).lightLevel(state -> 15)));
+
 
     private static <T extends Block> RegistryObject<T> registryBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -1,6 +1,10 @@
 {
   "values": [
     "zooliminology:tiles",
-    "zooliminology:brutalia_concrete"
+    "zooliminology:brutalia_concrete",
+    "zooliminology:tiles_stair",
+    "zooliminology:tiles_slab",
+    "zooliminology:brutalia_concrete_stair",
+    "zooliminology:brutalia_concrete_slab"
   ]
 }
