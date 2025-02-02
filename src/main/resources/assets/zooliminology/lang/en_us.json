@@ -4,11 +4,17 @@
   "item.zooliminology.longlegs_head_sample": "Longlegs Head Sample",
   "item.zooliminology.clipping_pen_internals": "Clipping Pen Internals(idk what this is)",
   "item.zooliminology.golbo_sample": "Golbo Sample",
+
+  "item.zooliminology.deconstruction_music_disc": "Deconstruction Music Disc",
+  "item.zooliminology.deconstruction_music_disc.desc": "lol_cerdef - Deconstruction",
+
   "block.zooliminology.tiles": "Tiles",
   "block.zooliminology.tiles_slab": "Slab Tiles",
   "block.zooliminology.tiles_stairs": "Stair Tiles",
   "block.zooliminology.brutalia_concrete": "Brutalia Concrete",
   "block.zooliminology.brutalia_concrete_stairs": "Brutalian Concrete Stairs",
   "block.zooliminology.brutalia_concrete_slab": "Brutalian Concrete Slab",
-  "block.zooliminology.white_hole": "White Hole"
+  "block.zooliminology.white_hole": "White Hole",
+  "creativetab.zooliminology.zoolim_stuff": "Zoolim Stuff",
+  "creativetab.zooliminology.zoolim_discs": "Zoolim Music Discs"
 }

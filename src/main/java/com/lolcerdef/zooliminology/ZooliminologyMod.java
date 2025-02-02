@@ -1,7 +1,9 @@
 package com.lolcerdef.zooliminology;
 
 import com.lolcerdef.zooliminology.block.ModBlocks;
+import com.lolcerdef.zooliminology.item.ModCreativeTabs;
 import com.lolcerdef.zooliminology.item.ModItems;
+import com.lolcerdef.zooliminology.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,11 +37,11 @@ public class ZooliminologyMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-
+        ModCreativeTabs.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
@@ -73,12 +75,11 @@ public class ZooliminologyMod
             event.accept(ModBlocks.TILES);
             event.accept(ModBlocks.TILES_STAIRS);
             event.accept(ModBlocks.TILES_SLAB);
-        }
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BRUTALIA_CONCRETE);
             event.accept(ModBlocks.BRUTALIA_CONCRETE_STAIRS);
             event.accept(ModBlocks.BRUTALIA_CONCRETE_SLAB);
         }
+
 
     }
 
