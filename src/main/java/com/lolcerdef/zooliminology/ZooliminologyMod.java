@@ -1,8 +1,10 @@
 package com.lolcerdef.zooliminology;
 
 import com.lolcerdef.zooliminology.block.ModBlocks;
+import com.lolcerdef.zooliminology.effect.ModEffects;
 import com.lolcerdef.zooliminology.item.ModCreativeTabs;
 import com.lolcerdef.zooliminology.item.ModItems;
+import com.lolcerdef.zooliminology.potion.ModPotions;
 import com.lolcerdef.zooliminology.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -39,6 +41,7 @@ public class ZooliminologyMod
 
         ModCreativeTabs.register(modEventBus);
         ModSounds.register(modEventBus);
+        ModEffects.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

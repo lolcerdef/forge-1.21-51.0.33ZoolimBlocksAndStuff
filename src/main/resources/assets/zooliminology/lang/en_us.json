@@ -15,6 +15,9 @@
   "block.zooliminology.brutalia_concrete_stairs": "Brutalian Concrete Stairs",
   "block.zooliminology.brutalia_concrete_slab": "Brutalian Concrete Slab",
   "block.zooliminology.white_hole": "White Hole",
+
   "creativetab.zooliminology.zoolim_stuff": "Zoolim Stuff",
-  "creativetab.zooliminology.zoolim_discs": "Zoolim Music Discs"
+  "creativetab.zooliminology.zoolim_discs": "Zoolim Music Discs",
+
+  "effect.zooliminology.watertwo": "Water 2 Consumption"
 }

@@ -24,7 +24,8 @@ public class ModItems {
             () -> new Item(new Item.Properties().stacksTo(2)));
     public static final RegistryObject<Item> GOLBO_SAMPLE = ITEMS.register("golbo_sample",
             () -> new Item(new Item.Properties().food(ModFoodProperties.GOLBO_SAMPLE).stacksTo(32)));
-
+//    public static final RegistryObject<Item> WATER_TWO_BOTTLE = ITEMS.register("water_two_bottle",
+//            () -> new Item(new Item.Properties().stacksTo(1).food()))
 
 
     public static void register(IEventBus eventBus) {
