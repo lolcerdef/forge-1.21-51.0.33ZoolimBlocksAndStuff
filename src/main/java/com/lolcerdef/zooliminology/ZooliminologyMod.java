@@ -4,7 +4,6 @@ import com.lolcerdef.zooliminology.block.ModBlocks;
 import com.lolcerdef.zooliminology.effect.ModEffects;
 import com.lolcerdef.zooliminology.item.ModCreativeTabs;
 import com.lolcerdef.zooliminology.item.ModItems;
-import com.lolcerdef.zooliminology.potion.ModPotions;
 import com.lolcerdef.zooliminology.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;

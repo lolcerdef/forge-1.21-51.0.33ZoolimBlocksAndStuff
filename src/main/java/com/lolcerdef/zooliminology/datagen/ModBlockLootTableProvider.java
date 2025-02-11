@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 //import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 //import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 //import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 
@@ -38,6 +39,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         this.add(ModBlocks.TILES_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.TILES_SLAB.get()));
         dropSelf(ModBlocks.TILES_STAIRS.get());
+
+        dropSelf(ModBlocks.WHITE_HOLE.get());
+
+
 
 //      dropSelf(ModBlocks.EXAMPLE_BLOCK.get()); <-- This is for blocks that drop themselves
 //      this.add(ModBlocks.EXAMPLE_ORE.get(),
